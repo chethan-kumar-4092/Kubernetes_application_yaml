@@ -9,7 +9,7 @@ spec:
   selector:
     app: app-server
 
---
+---
 
 apiVersion: apps/v1
 kind: Deployment
@@ -31,4 +31,5 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
+
 
